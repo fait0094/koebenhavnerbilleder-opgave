@@ -5,23 +5,27 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Københavnerbilleder opgave</title>
-    <script type="module" crossorigin src="./assets/main-20f80ec5.js"></script>
-    <link rel="stylesheet" href="./assets/index-87643d83.css">
+    <script type="module" crossorigin src="./assets/main-4f6005ab.js"></script>
+    <link rel="stylesheet" href="./assets/index-0ea28d15.css">
   </head>
   <body class="grid place-items-center">
     <main class="">
       <!-- Hero -->
+
       <div class="grid lg:grid-cols-2">
-        <div class="grid place-items-center bg-zinc-900 p-20 text-stone-50">
+        <div
+          class="grid place-items-center bg-zinc-900 p-20 text-stone-50 dark:bg-zinc-800"
+        >
           <h1 class="text-4xl font-bold uppercase">Københavnerbilleder</h1>
           <h2 class="text-2xl">En guide til hipster foto</h2>
           <h3 class="text-lg">af Sten Simons</h3>
           <button class="mt-14 bg-stone-50 p-3 px-12">
             <p class="font-bold text-zinc-900">KØB BOG</p>
           </button>
+          <button id="toggle-btn">Toggle</button>
         </div>
 
-        <div><img src="img/kobenhavnerbilleder-sten-simons.jpg" alt="" /></div>
+        <div><img src="img/kobenhavnerbilleder-sten-simons.webp" alt="" /></div>
       </div>
 
       <!-- Bogen -->
@@ -60,9 +64,9 @@
 
       <!-- Billeder af bog -->
       <div class="grid gap-10 bg-zinc-900 p-10 py-20 lg:grid-cols-3">
-        <img src="img/kobenhavnerbilleder-sten-simons.jpg" alt="" />
-        <img src="img/kobenhavnerbilleder_oppefra.jpg" alt="" />
-        <img src="img/kobenhavnerbilleder_aaben_venstre.jpg" alt="" />
+        <img src="img/kobenhavnerbilleder-sten-simons.webp" alt="" />
+        <img src="img/kobenhavnerbilleder_oppefra.webp" alt="" />
+        <img src="img/kobenhavnerbilleder_aaben_venstre.webp" alt="" />
       </div>
 
       <!-- Kapitler -->
@@ -207,11 +211,11 @@
 
       <!-- Galleri -->
       <div class="grid gap-10 bg-stone-50 p-10 lg:grid-cols-2">
-        <img src="img/0008.jpg" alt="" />
-        <img src="img/agfa-genanvendeligt-kamera-35mm-5.jpg" alt="" />
-        <img src="img/agfa-genanvendeligt-kamera-35mm-film-2-5.jpg" alt="" />
+        <img src="img/0008.webp" alt="" />
+        <img src="img/agfa-genanvendeligt-kamera-35mm-5.webp" alt="" />
+        <img src="img/agfa-genanvendeligt-kamera-35mm-film-2-5.webp" alt="" />
         <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110-14.jpg"
+          src="img/orestad-til-islands-brygge-pentax-auto-110-14.webp"
           alt=""
         />
       </div>
@@ -224,7 +228,7 @@
           Forfatteren
         </h4>
         <div class="grid lg:grid-cols-2 lg:gap-10">
-          <img src="img/sten_simons.jpg" alt="" />
+          <img src="img/sten_simons.webp" alt="" />
           <div>
             <h5 class="mt-5 font-bold">Sten Simons</h5>
             <p>
@@ -254,5 +258,6 @@
     </main>
 
     
+    <script src="./darkmode.js"></script>
   </body>
 </html>
